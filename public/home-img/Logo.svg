@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="125px" height="125px" viewBox="0 0 125 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-370.000000, -458.000000)">
+            <g id="Logo" transform="translate(370.000000, 458.000000)">
+                <rect id="Rectangle" fill="#202122" x="0" y="0" width="125" height="125" rx="8"></rect>
+                <polygon id="Polygon" fill="#333333" points="62.5 32 88.9137748 47.25 88.9137748 77.75 62.5 93 36.0862252 77.75 36.0862252 47.25"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="51px" viewBox="0 0 51 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>placeholder</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1297.000000, -53.000000)">
+            <g id="placeholder" transform="translate(1297.000000, 53.000000)">
+                <circle id="Oval" stroke="#333333" fill="#6F6F73" cx="25.5" cy="25.5" r="25"></circle>
+                <path d="M25.5,0 C11.67645,0 0,11.67645 0,25.5 C0,39.32355 11.67645,51 25.5,51 C39.32355,51 51,39.32355 51,25.5 C51,11.67645 39.32355,0 25.5,0 Z M25.5,12.75 C29.90385,12.75 33.15,15.9936 33.15,20.4 C33.15,24.8064 29.90385,28.05 25.5,28.05 C21.0987,28.05 17.85,24.8064 17.85,20.4 C17.85,15.9936 21.0987,12.75 25.5,12.75 Z M12.4797,37.6686 C14.76705,34.3026 18.58185,32.0586 22.95,32.0586 L28.05,32.0586 C32.4207,32.0586 36.23295,34.3026 38.5203,37.6686 C35.2614,41.157 30.63825,43.35 25.5,43.35 C20.36175,43.35 15.7386,41.157 12.4797,37.6686 Z" id="Icon-Shape" fill="#333333" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="540px" height="415px" viewBox="0 0 540 415" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 13</title>
+    <defs>
+        <linearGradient x1="0%" y1="45.5636034%" x2="100%" y2="54.4363966%" id="linearGradient-1">
+            <stop stop-color="#A252FF" offset="0%"></stop>
+            <stop stop-color="#7265F9" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-" transform="translate(-720.000000, -2286.000000)">
+            <g id="Group-24" transform="translate(175.000000, 2277.000000)">
+                <g id="Group-13" transform="translate(545.000000, 9.000000)">
+                    <g id="Group-20" transform="translate(3.000000, 0.000000)">
+                        <circle id="Oval" fill="#41DDFF" cx="23" cy="3" r="3"></circle>
+                        <circle id="Oval" fill="#FE840E" cx="31" cy="20" r="5"></circle>
+                        <circle id="Oval" fill="#D51B5B" cx="7.5" cy="17.5" r="7.5"></circle>
+                    </g>
+                    <text id="Smart-Feature" font-family="Poppins-Medium, Poppins" font-size="12" font-weight="400" letter-spacing="2" fill="#FFFFFF">
+                        <tspan x="3" y="51">SMART FEATURE</tspan>
+                    </text>
+                    <text id="Huge-Image-Library-w" font-family="Poppins-Medium, Poppins" font-size="34" font-weight="400" line-spacing="60" letter-spacing="2.34482759" fill="#FFFFFF">
+                        <tspan x="3" y="99">Huge Image Library with</tspan>
+                        <tspan x="3" y="159">Upsplash, Pixabay access</tspan>
+                    </text>
+                    <text id="Contrary-to-popular" font-family="Poppins-Regular, Poppins" font-size="14" font-weight="normal" line-spacing="33" fill="#FFFFFF">
+                        <tspan x="0" y="217">Contrary to popular belief, Lorem Ipsum is not simply random text. It has </tspan>
+                        <tspan x="0" y="250">roots in a piece of classical Latin literature from 45 BC, making it over 2000 </tspan>
+                        <tspan x="0" y="283">years old. Richard McClintock, a Latin professor at Hampden-Sydney College </tspan>
+                        <tspan x="0" y="316">in Virginia, looked up one of the more obscure Latin words,</tspan>
+                    </text>
+                    <g id="Group-11" transform="translate(0.000000, 368.000000)">
+                        <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="0" width="155.1" height="46.2" rx="23.1"></rect>
+                        <text id="Explore" font-family="Poppins-Medium, Poppins" font-size="15.4" font-weight="400" fill="#FFFFFF">
+                            <tspan x="49.7992" y="28.1">Explore</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

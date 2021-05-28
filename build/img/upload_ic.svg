@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="24px" viewBox="0 0 28 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>upload_ic</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-37.000000, -686.000000)">
+            <g id="upload_ic" transform="translate(37.000000, 684.000000)">
+                <g id="Icon" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                    <g id="Icon-Group" transform="translate(0.000000, 3.500000)">
+                        <polyline id="Icon-Path" points="18.6666667 15.1666667 14 10.5 9.33333333 15.1666667"></polyline>
+                        <path d="M14,10.5 L14,21" id="Icon-Path"></path>
+                        <path d="M23.7883333,17.955 C26.1291192,16.6788715 27.3068521,13.9781385 26.6492417,11.3944724 C25.9916312,8.81080626 23.6660418,7.00176021 21,7 L19.53,7 C18.562928,3.25945056 15.3911698,0.501405028 11.5525708,0.0631177891 C7.71397171,-0.37516945 4.0021323,1.59691408 2.21675941,5.02319223 C0.431386514,8.44947039 0.941592089,12.6215868 3.5,15.5166667" id="Icon-Path"></path>
+                        <polyline id="Icon-Path" points="18.6666667 15.1666667 14 10.5 9.33333333 15.1666667"></polyline>
+                    </g>
+                </g>
+                <rect id="ViewBox" x="0" y="0" width="28" height="28"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

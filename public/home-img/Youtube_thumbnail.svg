@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="198px" height="102px" viewBox="0 0 198 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Youtube_thumbnail</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-521.000000, -350.000000)">
+            <g id="Youtube_thumbnail" transform="translate(521.000000, 350.000000)">
+                <rect id="Rectangle" fill="#202122" transform="translate(99.000000, 51.000000) rotate(-90.000000) translate(-99.000000, -51.000000) " x="48" y="-48" width="102" height="198" rx="8"></rect>
+                <circle id="Oval" fill="#333333" transform="translate(99.000000, 66.000000) rotate(-90.000000) translate(-99.000000, -66.000000) " cx="99" cy="66" r="18"></circle>
+                <rect id="Rectangle" fill="#333333" x="63.5" y="14" width="71" height="6" rx="3"></rect>
+                <rect id="Rectangle" fill="#333333" x="78.5" y="30" width="41" height="6" rx="3"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

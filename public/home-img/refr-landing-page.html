@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Postermaker-refer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <style>
+  .iphone-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+  }
+  .iphone-text span {
+    width: 100%;
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  span.refer {
+    font-size: 50px;
+    color: #7563f9;
+
+  }
+  span.win{
+    font-size: 40px;
+  }
+  span.iphone{
+    font-size: 35px;
+  }
+  .iphone-text span.ip-color {
+    color: #ff9c00;
+    display: inline!important;
+    float: none;
+  }
+  .iphone-banner, .how-works, .features, .features-list, .team-member-container{
+    min-height: 519px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+  }
+  .team-member-container{
+    padding: 70px 0;
+  }
+  .footer-referral {
+    background: #aa63ff;
+    position: relative;
+    overflow: hidden;
+  }
+  .how-works {
+    background: linear-gradient(to right, #a352ff, #7165f9);
+  }
+  h1.refer-heading {
+    font-size: 34px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.452;
+    text-align: center;
+    margin: 0 0 50px 0;
+    letter-spacing: 2px;
+  }
+  span.how-text {
+    display: block;
+    margin: 20px 0 0 0;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+  .video-section {
+    border-radius: 15px;
+    background-color: rgb(202, 202, 202);
+    box-shadow: 7.607px 16.314px 38px 0px rgba(39, 39, 39, 0.26);
+    width: 100%;
+    margin: 0 auto;
+    max-width: 430px;
+}
+.iphone-banner {
+    background: url(iphone-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+  .container.features h1, .container.features-list h1{
+    color: #232323;
+  }
+  .features-text h4 {
+    font-size: 14px;
+    font-family: "Poppins";
+    color: rgb(42, 42, 42);
+    font-weight: 600;
+    line-height: 2.361;
+    letter-spacing: 1px;
+  }
+  .features-text ul {
+    padding: 0 0 0 1rem;
+    margin: 0;
+    list-style-type: disc;
+  }
+  .features-text ul li {
+    display: block;
+    margin: 20px 0;
+    font-size: 14px;
+  }
+  .features-text ul li span{
+    width: 100%;
+  }
+  .features-text ul li::before {
+    content: "\2022";
+    color: #a352ff;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  .features-list {
+    background: #f3f3f3;
+  }
+  .features-list h1{
+    color: #2a2a2a;
+  }
+  .features-list-text h5 {
+    font-size: 14px;
+    font-weight: normal;
+    color: #2a2a2a;
+    line-height: 2.361;
+    letter-spacing: 1px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+  }
+  .features-list ul{
+    padding: 0 0 0 1rem;
+    margin: 0;
+  }
+  .features-list ul li {
+    display: block;
+    margin: 20px 0;
+    font-size: 14px;
+    position: relative;
+  }
+  .features-list ul li::before {
+    content: "";
+    background: url("tick.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #a352ff;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: -15px;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top:0px;
+  }
+  .features-list ul li span{
+    width: 100%;
+    padding-left: 30px;
+  }
+
+
+  /*************TEAM MEMBERS CSS*************/
+  .referral-box-container {
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.08);
+    padding: 40px 100px;
+    max-height: 680px;
+    overflow-y: auto;
+  }
+  .referral-inner-box:last-child .d-flex {
+    border-bottom: none;
+  }
+  .referral-box-container h1{
+    color: #2a2a2a;
+
+  }
+  .star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .winner-designation {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+  }
+  .winner-img, .per-bar{
+    display: inline;
+  }
+  span.w-name {
+    font-size: 16px;
+  }
+  span.w-desg {
+    font-size: 13px;
+  }
+  .per-bar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .per-bar .per-color {
+    border-radius: 25px;
+    background: linear-gradient(to right, #8b5bfc, #a352ff);
+    height: 20px;
+    max-width: 280px;
+    width: 100%;
+    display: inline-block;
+  }
+  .per-bar .per-number {
+    font-size: 20px;
+    display: inline-block;
+    float: right;
+    max-width: 35px;
+    width: 100%;
+    text-align: right;
+  }
+  .winner {
+    background: url(star.png);
+    height: 41px;
+    width: 43px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .winner-img img{
+    max-width: 65px;
+    border-radius: 50%;
+    margin-left: 10px;
+  }
+  .referral-inner-box .d-flex {
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 17px;
+    margin-bottom: 17px;
+  }
+  .winner-designation span {
+    width: 100%;
+    float: left;
+  }
+  .winner-designation {
+    margin: 10px 0 0 15px;
+  }
+  .footer-referral h1{
+    text-align: left;
+    position: relative;
+  }
+  .footer-referral h1.refer-heading::before {
+    width: 130px;
+    height: 2px;
+    content: "";
+    background: #fff552;
+    height: 2px;
+    position: absolute;
+    bottom: -6px;
+  }
+  .separate-text {
+    font-size: 14px;
+    color: #fff;
+    line-height: 2.361;
+  }
+  .send-message-form input, .send-message-form button{
+    height: 48px;
+  }
+  .send-message-form input::placeholder, .send-message-form textarea::placeholder{
+    height: 48px;
+font-size: 14px;
+color: #b2b2b2;
+font-weight: normal;
+  }
+  .send-message-form button {
+    background: #ad64ff;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  .send-message-form textarea{
+    height: 126px;
+    resize: none;
+  }
+
+  .footer-referral::before {
+    background: #6a38bb;
+    height: 100%;
+    width: 40%;
+    right: 0;
+    content: "";
+    position: absolute;
+  }
+.footer-referral .container{
+  padding-top: 75px;
+padding-bottom: 75px;
+}
+
+
+  .footer-copyright {
+      background: #6a38bb;
+      color: #fff;
+font-size: 13px;
+padding: 15px 0;
+  }
+  .footer-copyright span{
+    color: #fff552;
+  }
+</style>
+
+</head>
+<body>
+  <!--------------IPHONE BANNER STARTS------------->
+  <div class="iphone-banner">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-12">
+          <div class="inner-banner-container">
+            <div class="row">
+              <div class="col-md-6 col-12"><div class="iphone-img"><img src="iphone.png" class="img-fluid"></div></div>
+              <div class="col-md-6 col-12">
+                <div class="iphone-text">
+                  <span class="refer">refer a friend</span>
+                  <span class="win">&amp; win</span>
+                  <span class="iphone"><span class="ip-color">an iphone</span> &amp; MORE...</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!--------------HOW IT WORKS STARTS------------->
+  <div class="how-works">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-12"><h1 class="refer-heading">How it works</h1></div>
+        <div class="col-12">
+          <div class="row">
+            <div class="col-md-3 text-center">
+              <span class="how-img"><img src="login.png" class="img-fluid"></span>
+              <span class="how-text">1. Login to your account</span>
+            </div>
+            <div class="col-md-3 text-center">
+              <span class="how-img"><img src="refer.png" class="img-fluid"></span>
+              <span class="how-text">2. go to refer and earn</span>
+            </div>
+            <div class="col-md-3 text-center">
+              <span class="how-img"><img src="friend.png" class="img-fluid"></span>
+              <span class="how-text">3. refer to a  friend</span>
+            </div>
+            <div class="col-md-3 text-center">
+              <span class="how-img"><img src="win.png" class="img-fluid"></span>
+              <span class="how-text">4. Win Prizes</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!--------------FEATURES  STARTS------------->
+  <div class="container features">
+
+    <div class="row">
+      <div class="col-12"><h1 class="refer-heading">features</h1></div>
+      <div class="col-md-7 features-text">
+        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis sagittis mi. Vivamus eget odio ac lacus euismod molestie auctor non ipsum.</h4>
+        <ul>
+          <li><span>Nulla non lectus id justo gravida mollis. Nullam nec neque commodo, efficitur lacus sed, laoreet purus. Nam vel venenatis.</li></span>
+          <li><span>Quisque eget ex vitae urna imperdiet pretium nec ac eros. Curabitur posuere nibh eget augue viverra tempor.</li></span>
+          <li><span>Vivamus auctor erat tincidunt sem lacinia faucibus. Fusce egestas.</li></span>
+          <li><span>Proin vitae eleifend neque. Etiam placerat nisi sapien, in dignissim risus accumsan ac. </li></span>
+          <li><span>Fusce in condimentum turpis. Proin egestas ipsum arcu, facilisis.</li></span>
+        </ul>
+      </div>
+      <div class="col-md-5 col-12"><div class="video-section"><img src="feature-video.png" class="img-fluid"></div>
+    </div>
+
+  </div>
+</div>
+
+<!--------------FEATURES  LIST STARTS------------->
+<div class="features-list">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-12"><h1 class="refer-heading">Features List</h1></div>
+      <div class="col-md-12 features-list-text">
+        <h5>Quisque aliquet mattis facilisis. Aenean gravida ex eu libero hendrerit tristique. Nam ac tortor et lacus congue tincidunt. Phasellus consequat quam massa, imperdiet pellentesque r.isus tincidunt eget. Phasellus porta libero ut tempus suscipit. Proin et ante sit amet purus venenatis condimentum. </h5>
+        <ul>
+          <li><span>Nulla non lectus id justo gravida mollis. Nullam nec neque commodo, efficitur lacus sed, laoreet purus. Nam vel venenatis.</li></span>
+          <li><span>Quisque eget ex vitae urna imperdiet pretium nec ac eros. Curabitur posuere nibh eget augue viverra tempor.</li></span>
+          <li><span>Vivamus auctor erat tincidunt sem lacinia faucibus. Fusce egestas.</li></span>
+          <li><span>Proin vitae eleifend neque. Etiam placerat nisi sapien, in dignissim risus accumsan ac. </li></span>
+          <li><span>Fusce in condimentum turpis. Proin egestas ipsum arcu, facilisis.</li></span>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--------------TEAM MEMBERS STARTS------------->
+<div class="container team-member-container">
+
+  <div class="row">
+    <div class="col-12">
+      <div class="team-members">
+        <div class="referral-box-container">
+          <div class="col-12"><h1 class="refer-heading">Interviewed referals by team members</h1></div>
+
+          <div class="referral-inner-box">
+            <div class="d-flex">
+              <div class="star">
+                <span class="winner">1</span>
+              </div>
+              <div class="winner-img"><img src="winner-img.png" class="img-fluid"></div>
+              <div class="winner-designation">
+                <span  class="w-name">Alisha Chinoy</span>
+                <span class="w-desg">Head Manager</span>
+              </div>
+              <div class="per-bar">
+                <span class="per-color w-100"></span>
+                <span class="per-number">25</span>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="referral-inner-box">
+            <div class="d-flex">
+              <div class="star">
+                <span class="winner">2</span>
+              </div>
+              <div class="winner-img"><img src="winner-img2.png" class="img-fluid"></div>
+              <div class="winner-designation">
+                <span  class="w-name">Bruce Wayne</span>
+                <span class="w-desg">Head Manager</span>
+              </div>
+              <div class="per-bar">
+                <span class="per-color w-75"></span>
+                <span class="per-number">21</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="referral-inner-box">
+            <div class="d-flex">
+              <div class="star">
+                <span class="winner">3</span>
+              </div>
+              <div class="winner-img"><img src="winner-img3.png" class="img-fluid"></div>
+              <div class="winner-designation">
+                <span  class="w-name">Matthew</span>
+                <span class="w-desg">Head Manager</span>
+              </div>
+              <div class="per-bar w-50">
+                <span class="per-color"></span>
+                <span class="per-number">15</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="referral-inner-box">
+            <div class="d-flex">
+              <div class="star">
+                <span class="winner">4</span>
+              </div>
+              <div class="winner-img"><img src="winner-img4.png" class="img-fluid"></div>
+              <div class="winner-designation">
+                <span  class="w-name">Emily</span>
+                <span class="w-desg">Head Manager</span>
+              </div>
+              <div class="per-bar w-25">
+                <span class="per-color"></span>
+                <span class="per-number">14</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="referral-inner-box">
+            <div class="d-flex">
+              <div class="star">
+                <span class="winner">5</span>
+              </div>
+              <div class="winner-img"><img src="winner-img5.png" class="img-fluid"></div>
+              <div class="winner-designation">
+                <span  class="w-name">Nelson Haydens</span>
+                <span class="w-desg">Head Manager</span>
+              </div>
+              <div class="per-bar">
+                <span class="per-color"></span>
+                <span class="per-number">10</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+<!--------------FOOTER STARTS------------->
+<div class=" footer-referral">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-5 col-12 mr-auto send-message">
+        <div class="row">
+          <div class="col-12"><h1 class="refer-heading">Send A Message</h1></div>
+          <div class="col-12 separate-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis sagittis mi. Vivamus eget odio ac lacus euismod molestie auctor non ipsum. </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-6 col-12 send-message-form">
+        <form>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" placeholder="Email Address">
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" placeholder="Message"></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-refer-form float-right">submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!--------------COPYRIGHT STARTS------------->
+<div class="footer-copyright">
+<div class="container">
+  <div class="row">
+    <div class="col-12 text-center">Copyright © 2020 <span>POSTERMAKER</span> | ALL RIGHTS RESERVED</div>
+  </div>
+</div>
+
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="59px" viewBox="0 0 58 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>facebook</title>
+    <defs>
+        <linearGradient x1="26.6577744%" y1="0%" x2="73.1802591%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#4466FD" offset="0%"></stop>
+            <stop stop-color="#3559FF" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="16.99775" cy="16.57425" r="16.57425"></circle>
+        <filter x="-67.9%" y="-49.8%" width="235.8%" height="235.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.443137255   0 0 0 0 0.545098039   0 0 0 0 1  0 0 0 0.25707654 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-" transform="translate(-130.000000, -4034.000000)">
+            <g id="facebook" transform="translate(142.000000, 4041.000000)">
+                <g id="Oval">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+                <path d="M15.0191634,25.0635 L15.0191634,17.0966954 L12.95525,17.0966954 L12.95525,14.2282627 L15.0191634,14.2282627 L15.0191634,11.7782482 C15.0191634,9.85300516 16.2383252,8.085 19.0475324,8.085 C20.1849354,8.085 21.0259942,8.19629407 21.0259942,8.19629407 L20.9597222,10.8749241 C20.9597222,10.8749241 20.101979,10.8664009 19.1659703,10.8664009 C18.152927,10.8664009 17.9906239,11.3429025 17.9906239,12.133778 L17.9906239,14.2282627 L21.04025,14.2282627 L20.9075563,17.0966954 L17.9906239,17.0966954 L17.9906239,25.0635 L15.0191634,25.0635" id="Icon-Path" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

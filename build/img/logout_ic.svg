@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>log-out</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Artboard" transform="translate(-1490.000000, -29.000000)" stroke="#FFFFFF" stroke-width="1.5">
+            <g id="log-out" transform="translate(1491.000000, 30.000000)">
+                <path d="M4.8,14.4 L1.6,14.4 C0.7163444,14.4 0,13.6836556 0,12.8 L0,1.6 C0,0.7163444 0.7163444,0 1.6,0 L4.8,0" id="Shape"></path>
+                <polyline id="Shape" points="10.4 11.2 14.4 7.2 10.4 3.2"></polyline>
+                <path d="M14.4,7.2 L4.8,7.2" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

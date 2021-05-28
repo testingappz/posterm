@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>twitter</title>
+    <defs>
+        <linearGradient x1="26.6577744%" y1="0%" x2="73.1802591%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#44BBFD" offset="0%"></stop>
+            <stop stop-color="#31ABFF" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="16.57425" cy="16.57425" r="16.57425"></circle>
+        <filter x="-67.9%" y="-49.8%" width="235.8%" height="235.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.203921569   0 0 0 0 0.682352941   0 0 0 0 0.996078431  0 0 0 0.26 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-" transform="translate(-229.000000, -4034.000000)">
+            <g id="twitter" transform="translate(242.000000, 4041.000000)">
+                <g id="Oval">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+                <g id="ant-design:twitter-outlined" transform="translate(7.194250, 6.720000)" fill-rule="nonzero">
+                    <g id="Icon" transform="translate(1.890000, 3.150000)" fill="#FFFFFF">
+                        <path d="M16.38,1.85653125 C15.7775625,2.11640625 15.1219688,2.3034375 14.4466875,2.37628125 C15.147784,1.95976412 15.672806,1.30173659 15.92325,0.52565625 C15.265359,0.917022382 14.5446397,1.19145522 13.7930625,1.33678125 C13.1580811,0.65794838 12.2695221,0.273571733 11.34,0.275616816 C9.47953125,0.275616816 7.98328125,1.7836875 7.98328125,3.6343125 C7.98328125,3.8941875 8.01478125,4.1540625 8.06596875,4.40409375 C5.2801875,4.25840625 2.795625,2.92753125 1.14384375,0.889875 C0.842871609,1.40394601 0.685151941,1.98927633 0.68709375,2.58496875 C0.68709375,3.75046875 1.2796875,4.77815625 2.18334375,5.3825625 C1.6508056,5.36158965 1.13073706,5.21521497 0.6654375,4.95534375 L0.6654375,4.9966875 C0.6654375,6.62878125 1.819125,7.9813125 3.35671875,8.292375 C3.06801863,8.36736545 2.77102945,8.4057293 2.47275,8.4065625 C2.25421875,8.4065625 2.0475,8.38490625 1.8388125,8.355375 C2.2640625,9.68625 3.50240625,10.6529062 4.977,10.6844062 C3.8233125,11.5880625 2.37825,12.119625 0.80915625,12.119625 C0.527625,12.119625 0.26775,12.1097812 -0.00196875,12.0782812 C1.48640625,13.033125 3.252375,13.584375 5.1541875,13.584375 C11.3281875,13.584375 14.7065625,8.4695625 14.7065625,4.03003125 C14.7065625,3.88434375 14.7065625,3.73865625 14.6967188,3.59296875 C15.3503438,3.1145625 15.92325,2.52196875 16.38,1.85653125 Z" id="Icon-Path"></path>
+                    </g>
+                    <rect id="ViewBox" x="0" y="0" width="20.16" height="20.16"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

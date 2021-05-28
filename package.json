@@ -1,0 +1,91 @@
+{
+  "name": "pm-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://postermaker.iapplabz.co.in/",
+  "proxy": "http://localhost:3001/",
+  "dependencies": {
+    "@dr-kobros/react-webfont-loader": "^8.0.0",
+    "@popperjs/core": "^2.4.4",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "blob-util": "^2.0.2",
+    "bootstrap": "^4.5.0",
+    "canvas-to-blob": "^1.0.0",
+    "copy-to-clipboard": "^3.3.1",
+    "express": "^4.17.1",
+    "fabric": "^3.6.3",
+    "fabric-customise-controls": "^2.0.6-beta",
+    "fabric-history": "^1.6.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "fontfaceobserver": "^2.1.0",
+    "fs": "0.0.1-security",
+    "jspdf": "^1.5.3",
+    "lodash": "^4.17.15",
+    "lz-string": "^1.4.4",
+    "lzwcompress": "^0.5.22",
+    "moment": "^2.26.0",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
+    "rc-color-picker": "^1.2.6",
+    "react": "^16.13.1",
+    "react-app-polyfill": "^1.0.6",
+    "react-color": "^2.18.1",
+    "react-dom": "^16.13.1",
+    "react-facebook-login": "^4.1.1",
+    "react-ga": "^3.1.2",
+    "react-google-login": "^5.1.20",
+    "react-helmet": "^6.1.0",
+    "react-hover-video-player": "^6.6.2",
+    "react-loading-overlay": "^1.0.1",
+    "react-masonry-component": "^6.2.1",
+    "react-masonry-css": "^1.0.14",
+    "react-messenger-customer-chat": "^0.8.0",
+    "react-popper": "^2.2.3",
+    "react-rangeslider": "^2.2.0",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "^3.4.1",
+    "react-scrollable-pagination": "^1.0.2",
+    "react-share": "^4.2.1",
+    "react-spinners": "^0.9.0",
+    "react-video-thumbnail": "^0.1.3",
+    "reactautoplay": "^1.0.1",
+    "recordrtc": "^5.6.1",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "resize-observer-polyfill": "^1.5.1",
+    "swiper": "^6.0.4",
+    "uuid": "^8.1.0",
+    "validator": "^13.0.0",
+    "warning": "^4.0.3"
+  },
+  "scripts": {
+    "start:dev": "PORT=3007 react-scripts start",
+    "start": "PORT=3007 node server.js",
+    "build": "PORT=3007 react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "^7.0.0-bridge.0"
+  }
+}

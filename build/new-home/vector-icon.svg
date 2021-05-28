@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="68px" viewBox="0 0 68 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 26</title>
+    <defs>
+        <circle id="path-1" cx="34" cy="34" r="34"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-" transform="translate(-190.000000, -1214.000000)">
+            <g id="Group-3" transform="translate(139.000000, 1214.000000)">
+                <g id="Group-26" transform="translate(51.000000, 0.000000)">
+                    <g id="Group-2">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Oval" fill="#D51B5B" xlink:href="#path-1"></use>
+                        <circle id="Oval" fill="#FFFFFF" opacity="0.2" mask="url(#mask-2)" cx="66" cy="25" r="22"></circle>
+                    </g>
+                    <g id="Group" transform="translate(20.000000, 20.000000)">
+                        <polygon id="Path" points="0 0 27.2 0 27.2 27.2 0 27.2"></polygon>
+                        <polygon id="Path" stroke="#FFFFFF" stroke-width="2" points="10.4 10.4 25.6 10.4 25.6 25.6 10.4 25.6"></polygon>
+                        <path d="M10.4,19.2 C5.54,19.2 1.6,15.26 1.6,10.4 C1.6,5.54 5.54,1.6 10.4,1.6 C15.26,1.6 19.2,5.54 19.2,10.4 C19.2,15.26 15.26,19.2 10.4,19.2 Z" id="Path" stroke="#FFFFFF" stroke-width="2"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

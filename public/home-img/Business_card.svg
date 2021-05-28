@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="198px" height="102px" viewBox="0 0 198 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Business_card</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-521.000000, -480.000000)">
+            <g id="Business_card" transform="translate(521.000000, 480.000000)">
+                <rect id="Rectangle" fill="#202122" transform="translate(99.000000, 51.000000) rotate(-90.000000) translate(-99.000000, -51.000000) " x="48" y="-48" width="102" height="198" rx="8"></rect>
+                <circle id="Oval" fill="#333333" transform="translate(52.000000, 50.000000) rotate(-90.000000) translate(-52.000000, -50.000000) " cx="52" cy="50" r="26"></circle>
+                <path d="M101,29 L173,29 C174.656854,29 176,30.3431458 176,32 C176,33.6568542 174.656854,35 173,35 L101,35 C99.3431458,35 98,33.6568542 98,32 C98,30.3431458 99.3431458,29 101,29 Z" id="Rectangle" fill="#333333"></path>
+                <path d="M101,47 L173,47 C174.656854,47 176,48.3431458 176,50 C176,51.6568542 174.656854,53 173,53 L101,53 C99.3431458,53 98,51.6568542 98,50 C98,48.3431458 99.3431458,47 101,47 Z" id="Rectangle" fill="#333333"></path>
+                <path d="M101,65 L173,65 C174.656854,65 176,66.3431458 176,68 C176,69.6568542 174.656854,71 173,71 L101,71 C99.3431458,71 98,69.6568542 98,68 C98,66.3431458 99.3431458,65 101,65 Z" id="Rectangle" fill="#333333"></path>
+            </g>
+        </g>
+    </g>
+</svg>

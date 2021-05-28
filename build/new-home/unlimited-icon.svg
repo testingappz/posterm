@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="68px" viewBox="0 0 68 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 29</title>
+    <defs>
+        <circle id="path-1" cx="34" cy="34" r="34"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-" transform="translate(-1044.000000, -1259.000000)">
+            <g id="Group-29" transform="translate(1044.000000, 1259.000000)">
+                <g id="Group-2">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Oval" fill="#8A5BFC" xlink:href="#path-1"></use>
+                    <circle id="Oval" fill="#FFFFFF" opacity="0.2" mask="url(#mask-2)" cx="34" cy="0" r="22"></circle>
+                </g>
+                <g id="ion-shapes-outline" transform="translate(18.000000, 18.000000)">
+                    <g id="Icon" transform="translate(2.000000, 3.000000)" stroke="#FFFFFF" stroke-linejoin="round" stroke-width="2">
+                        <polygon id="Icon-Path" points="19 17 0 17 9.5 0"></polygon>
+                        <path d="M14.5825,9.156875 C18.1236708,7.16190498 22.5624903,7.78791991 25.413806,10.6844341 C28.2651218,13.5809484 28.8212536,18.0290637 26.7708412,21.5384234 C24.7204289,25.0477831 20.5723728,26.7473841 16.6490363,25.6856746 C12.7256999,24.6239651 10.0008325,21.0644551 10,17" id="Icon-Path"></path>
+                    </g>
+                    <rect id="ViewBox" fill-rule="nonzero" x="0" y="0" width="32" height="32"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
